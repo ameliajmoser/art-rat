@@ -40,3 +40,5 @@ public class ManController : MonoBehaviour
         hairTransform.LookAt(lookAt);
     }
 }
+
+
