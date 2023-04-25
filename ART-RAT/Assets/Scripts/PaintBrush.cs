@@ -25,7 +25,7 @@ public class PaintBrush : MonoBehaviour
     {
         _renderer = tip.GetComponent<Renderer>();
         _colors = Enumerable.Repeat(_renderer.material.color, brushSize * brushSize).ToArray();
-        _tipheight = tip.localScale.y;
+        _tipheight = 0.08f; //hardcoding for now
 
 
     }
@@ -65,7 +65,7 @@ public class PaintBrush : MonoBehaviour
                         _canvas.texture.SetPixels(lerpX, lerpY, brushSize, brushSize, _colors);
                     }
                     //prevents brush from "flattening"
-                    transform.rotation = _lastTouchRot;
+                    // transform.rotation = _lastTouchRot;
 
                     _canvas.texture.Apply(); //sets everything and updates texture
                 }
