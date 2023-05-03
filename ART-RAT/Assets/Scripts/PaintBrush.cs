@@ -7,6 +7,7 @@ public class PaintBrush : MonoBehaviour
 {
     [SerializeField] private Transform tip;
     [SerializeField] private int brushSize = 5;
+    public List<Material> color_palette;
 
     private Renderer _renderer;
     private Color[] _colors;
@@ -34,6 +35,69 @@ public class PaintBrush : MonoBehaviour
     {
         if (Physics.Raycast(tip.position, transform.up, out _touch, _tipheight))
         {
+            if (_touch.transform.CompareTag("black"))
+            {
+                Debug.Log("touched");
+                //_colors = Enumerable.Repeat(Color.red, brushSize * brushSize).ToArray();
+                //_renderer.material.color = Color.red;
+                _colors = Enumerable.Repeat(color_palette[0].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[0].color;
+
+            }
+            else if (_touch.transform.CompareTag("blue"))
+            {
+                _colors = Enumerable.Repeat(color_palette[1].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[1].color;
+
+            }
+            else if (_touch.transform.CompareTag("dark_brown"))
+            {
+                _colors = Enumerable.Repeat(color_palette[2].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[2].color;
+
+            }
+            else if (_touch.transform.CompareTag("green"))
+            {
+                _colors = Enumerable.Repeat(color_palette[3].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[3].color;
+
+            }
+            else if (_touch.transform.CompareTag("light_blue"))
+            {
+                _colors = Enumerable.Repeat(color_palette[4].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[4].color;
+
+            }
+            else if (_touch.transform.CompareTag("orange"))
+            {
+                _colors = Enumerable.Repeat(color_palette[5].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[5].color;
+
+            }
+            else if (_touch.transform.CompareTag("pink"))
+            {
+                _colors = Enumerable.Repeat(color_palette[6].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[6].color;
+
+            }
+            else if (_touch.transform.CompareTag("purple"))
+            {
+                _colors = Enumerable.Repeat(color_palette[7].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[7].color;
+
+            }
+            else if (_touch.transform.CompareTag("red"))
+            {
+                _colors = Enumerable.Repeat(color_palette[8].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[8].color;
+
+            }
+            else if (_touch.transform.CompareTag("yellow"))
+            {
+                _colors = Enumerable.Repeat(color_palette[9].color, brushSize * brushSize).ToArray();
+                _renderer.material.color = color_palette[9].color;
+
+            }
             if (_touch.transform.CompareTag("Canvas"))
             {
                 if (_canvas == null)
