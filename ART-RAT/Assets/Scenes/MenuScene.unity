@@ -792,27 +792,27 @@ PrefabInstance:
     - target: {fileID: 4436940632021081988, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4436940632021081988, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1961786438}
     - target: {fileID: 4436940632021081988, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4436940632021081988, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: goToScene
+      value: NewPrompt
       objectReference: {fileID: 0}
     - target: {fileID: 4436940632021081988, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScene, Assembly-CSharp
+      value: RandomPrompt, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 4436940632021081988, guid: c24a7635b5761984d81cf6c4aac26e0d,
         type: 3}
@@ -934,6 +934,46 @@ MonoBehaviour:
   - A mousetrap
   - A horse
   - A dog
+  - A wedge of cheese
+  - A paintbrush
+  - A mountain forest
+  - A car
+  - A possum
+  - A mouse
+  - A hamster in a wheel
+  - A sailing ship
+  - A beautiful sunrise
+  - A self-portrait
+  - A nice picnic
+  - A stormy sea
+  - An imaginary creature
+  - A pair of roller skates
+  - A hapless chef
+  - A whale underwater
+  - A classroom
+  - A brave knight
+  - The concept of peace
+  - The concept of grief
+  - The concept of nostalgia
+  - A cube
+  - A "cool S"
+  - A spurned lover
+  - A capybara
+  - A hummingbird
+  - A virtual reality headset
+  - A hand
+  - A cool dragon
+  - A kitty-cat
+  - Saturn devouring his son
+  - Mona Lisa
+  - Starry Night
+  - Truth Coming Out of Her Well to Shame Mankind
+  - Wanderer Above the Sea of Fog
+  - Waterlilies
+  - A Sunday on La Grande Jatte
+  - The Scream
+  - American Gothic
+  - Rats playing poker
 --- !u!1001 &258639783698050609
 PrefabInstance:
   m_ObjectHideFlags: 0
