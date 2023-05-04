@@ -24,7 +24,5 @@ public class TransformSpaces : MonoBehaviour
 
         //rotation
         if (rotation_on) target_transform.transform.localEulerAngles = source_transform.transform.eulerAngles * magnitude_scale;
-
-        //.log(target_transform.transform.localPosition);
     }
 }
