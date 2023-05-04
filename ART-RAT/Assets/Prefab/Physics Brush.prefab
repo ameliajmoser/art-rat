@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 8836669974828018575}
   - component: {fileID: 4774793254852140949}
   - component: {fileID: 4774793254852140946}
-  - component: {fileID: 30474469764937089}
+  - component: {fileID: 2150916220398710191}
   m_Layer: 0
   m_Name: Physics Brush
   m_TagString: Untagged
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &30474469764937089
+--- !u!114 &2150916220398710191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -355,4 +355,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tip: {fileID: 30474468250212204}
   brushSize: 15
+  color_palette:
+  - {fileID: 2100000, guid: ae34b57f9fb05444ebc9d78cd0b7d2fc, type: 2}
+  - {fileID: 2100000, guid: 752b16aaf51a84364932265615331594, type: 2}
+  - {fileID: 2100000, guid: b2d8233aec04f4ef38e37df2800fd923, type: 2}
+  - {fileID: 2100000, guid: 84c3ad4df4d6b4367abcc81a6196b3cb, type: 2}
+  - {fileID: 2100000, guid: 9b8f849d4b4e240c1809078ffd768d3c, type: 2}
+  - {fileID: 2100000, guid: f650076e329a44266b054a8a2d084ef7, type: 2}
+  - {fileID: 2100000, guid: 8fec1acbeade44e859b441e8192e482d, type: 2}
+  - {fileID: 2100000, guid: e4b3ce8f0cafe4a9391d9a5ba83eb197, type: 2}
+  - {fileID: 2100000, guid: 2b5bf25a3963d47fc831405cfa31f771, type: 2}
   red: {r: 0, g: 0, b: 0, a: 0}

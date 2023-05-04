@@ -5,6 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - PlayerHand
+  - red
+  - Canvas
+  - black
+  - blue
+  - green
+  - orange
+  - pink
+  - purple
+  - white
+  - yellow
   layers:
   - Default
   - TransparentFX
