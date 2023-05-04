@@ -21,7 +21,6 @@ public class PaintBrush : MonoBehaviour
 
     public List<Material> color_palette;
     //private Material _pickedMaterial;
-    public Color red;
     // Start is called before the first frame update
     void Start()
     {
