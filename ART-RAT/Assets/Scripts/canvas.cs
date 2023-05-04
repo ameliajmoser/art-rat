@@ -9,11 +9,13 @@ public class canvas : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-  
-    	var r = GetComponent<Renderer>();
+    	ClearCanvas();        
+    }
+
+	public void ClearCanvas(){
+		var r = GetComponent<Renderer>();
     	texture = new Texture2D((int)textureSize.x, (int)textureSize.y);
     	r.material.mainTexture = texture;
-        
-    }
+	}
 
 }
