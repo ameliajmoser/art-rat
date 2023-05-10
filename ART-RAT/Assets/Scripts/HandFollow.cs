@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class HandFollow : MonoBehaviour
 {
-    public GameObject brush;
+    public GameObject item;
 
-    void Update()
+    void LateUpdate()
     {
-        transform.position = brush.transform.position;
+        transform.position = item.transform.position;
     }
 }
